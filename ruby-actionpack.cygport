@@ -2,11 +2,13 @@ inherit rubygem
 
 NAME="ruby-actionpack"
 VERSION=4.0.11
-RELEASE=1
+RELEASE=2
 CATEGORY="Ruby"
 SUMMARY="Ruby Action Pack extension"
 DESCRIPTION="Web apps on Rails. Simple, battle-tested conventions for building
 and testing MVC web applications. Works with any Rack-compatible server."
+
+PATCH_URI="actionpack-4.0-CVE-2014-7829.patch"
 
 ARCH=noarch
 
